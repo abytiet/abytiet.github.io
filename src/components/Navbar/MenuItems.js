@@ -1,7 +1,7 @@
 const MenuItems = [
     {
         title: "Home",
-        url: "#",
+        url: "/",
         cName: "nav-links"
     },
     {
@@ -11,14 +11,14 @@ const MenuItems = [
     },
     {
         title: "GitHub",
-        url: "#",
+        url: "https://github.com/abytiet",
         cName: "nav-links"
     },
     {
         title: "LinkedIn",
-        url: "#",
+        url: "https://www.linkedin.com/in/abytiet/",
         cName: "nav-links"
-    }
+    },
 ]
 
 export default MenuItems
