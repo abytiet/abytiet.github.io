@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
-import strawberry_cat from '../../image/strawberry_cat.JPG';
+import strawberry_cat from '../../images/strawberry_cat.jpg';
+import strawberry_cat_remove from '../../images/strawberry_cat_remove.jpg';
 import './Logo.css';
 
 
 class Logo extends Component {
+    state = {clicked: false}
+
+    handleClick = () => {
+        this.setState( {clicked: !this.state.clicked})
+    }
+
     render() {
+        var imagesrc = this.state.clicked ? strawberry_cat_remove : strawberry_cat;
         return (
-            <img alt="strawberry cat" src={strawberry_cat} className="img"></img>
+            <img alt="strawberry cat" src={imagesrc} className="img" onClick={this.handleClick}></img>
         )
     }
 }
