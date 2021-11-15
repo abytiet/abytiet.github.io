@@ -9,13 +9,13 @@
 .navbar-logo {
     color: #f2f3f4;
     justify-self: start;
-    margin-left: 20px;
+    margin-left: 20px; 
     cursor: pointer;
 }
 
-.fa-react {
+.fa-cloud-moon {
     margin-left: 0.5rem;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 .nav-menu {
@@ -24,7 +24,7 @@
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: 70vw;
+    width: 80vw;
     justify-content: end;
     margin-right: 2rem;
 }
@@ -55,7 +55,6 @@
     }
 
     .nav-menu {
-        background-color: #9198e5;
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -68,7 +67,7 @@
     }
 
     .nav-menu.active {
-        background: rgb(93, 93, 122);
+        background: #1D2B64;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -76,16 +75,15 @@
     }
 
     .nav-links {
-        background-color: rgb(162, 216, 216);
+        background-color: rgba(241, 168, 217, 0.568);
         text-align: center;
-        padding: 2rem;
+        padding: 1.5rem;
         width: 100%;
         display: table;
     }
 
     .nav-links:hover {
-        background-color: paleturquoise;
-        border-radius: 0;
+        background-color:rgba(223, 184, 210, 0.822);
     }
     
     .navbar-logo {

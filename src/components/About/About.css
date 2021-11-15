@@ -1,12 +1,19 @@
 .about {
     justify-content: center;
-    padding: 2rem 2rem;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
 }
 
 .logo {
-    float: left;
 }
 
 .content {
-    float: left;
+    font-size: 3rem;
 }

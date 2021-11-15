@@ -7,8 +7,8 @@ class About extends Component {
         return(
             <div className='about'>
                 <div className='content'>
-                    <h1> 👋 Hello! </h1>
-                    <h2> I'm Aby Tiet. </h2>
+                    <h1> Hi! </h1>
+                    <h1> I'm Aby Tiet. </h1>
                 </div>
                 <div className='logo'>
                     <Logo />
