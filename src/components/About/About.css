@@ -1,4 +1,14 @@
-.About {
-    text-align: center;
-    color: white;
+.about {
+    justify-content: center;
+    padding: 2rem 2rem;
+}
+
+.logo {
+    width:75%;
+    float: left;
+}
+
+.content {
+    float: left;
+    width: 25%;
 }

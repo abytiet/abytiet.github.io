@@ -7,7 +7,7 @@
 }
 
 .navbar-logo {
-    color: #fff;
+    color: #f2f3f4;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -30,19 +30,19 @@
 }
 
 .nav-links {
-    color: white;
+    color: #f2f3f4;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
 .nav-links:hover {
-    background-color: rgb(208, 232, 255);
+    background-color: rgba(241, 168, 217, 0.568);
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }
 
 .fa-bars {
-    color: #fff;
+    color: #f2f3f4;
 }
 
 .menu-icon {
@@ -106,7 +106,7 @@
     }
 
     .fa-times {
-        color: #fff;
+        color: #f2f3f4;
         font-size: 2rem;
     }
 }
