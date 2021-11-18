@@ -72,18 +72,21 @@
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 1;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 
     .nav-links {
-        background-color: rgba(241, 168, 217, 0.568);
+        background-color: rgba(181, 183, 211, 0.336);
         text-align: center;
-        padding: 1.5rem;
+        padding: 2.5rem;
+        height: 75%;
         width: 100%;
         display: table;
     }
 
     .nav-links:hover {
-        background-color:rgba(223, 184, 210, 0.822);
+        background-color:rgba(187, 200, 236, 0.479);
     }
     
     .navbar-logo {
