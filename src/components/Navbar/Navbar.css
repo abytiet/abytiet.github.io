@@ -67,13 +67,13 @@
     }
 
     .nav-menu.active {
-        background: #1D2B64;
+        background: linear-gradient(#1D2B64, #c99daa);
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
+        justify-content: center;
         z-index: 1;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+        height: 90.5vh;
     }
 
     .nav-links {

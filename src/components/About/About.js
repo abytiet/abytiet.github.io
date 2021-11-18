@@ -10,7 +10,7 @@ class About extends Component {
                     <h1> Hi! </h1>
                     <h1> I'm Aby Tiet. </h1>
                 </div>
-                <div className='logo'>
+                <div>
                     <Logo />
                 </div>
             </div>
