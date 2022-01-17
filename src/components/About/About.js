@@ -1,21 +1,15 @@
-import React, { Component } from 'react';
-import Logo from './Logo'
+import React from "react";
 import './About.css'
 
-class About extends Component {
-    render() {
-        return(
-            <div className='about'>
-                <div className='content'>
-                    <h1> Hi! </h1>
-                    <h1> I'm Aby Tiet. </h1>
-                </div>
-                <div>
-                    <Logo />
-                </div>
-            </div>
-        )
-    }
-}
-
-export default About;
+function About() {
+    return (
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of
+            type and scrambled it to make a type specimen book.
+        </p>
+    );
+  }
+  
+  export default About;

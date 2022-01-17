@@ -1,0 +1,13 @@
+.about {
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    padding-top: 5%;
+}
+
+.content {
+    font-size: 2vw;
+}

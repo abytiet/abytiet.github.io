@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import strawberry_cat from '../../images/strawberry_cat.jpg';
 import strawberry_cat_remove from '../../images/strawberry_cat_remove.jpg';
-import './Logo.css';
+import './Cat.css';
 
 
-class Logo extends Component {
+class Cat extends Component {
     state = {clicked: false}
 
     handleClick = () => {
@@ -19,4 +19,4 @@ class Logo extends Component {
     }
 }
 
-export default Logo;
+export default Cat;
