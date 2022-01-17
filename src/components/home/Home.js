@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Cat from './Cat'
-import './Aby.css'
+import './Home.css'
 
-class Aby extends Component {
+class Home extends Component {
     render() {
         return(
             <div className='about'>
@@ -18,4 +18,4 @@ class Aby extends Component {
     }
 }
 
-export default About;
+export default Home;

@@ -4,13 +4,10 @@
     align-items: center;
     display: flex;
     flex-direction: row;
-    gap: 10%;
+    gap: 5%;
     padding-top: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 5%;
 }
 
 .content {
-    font-size: 3.25vw;
+    font-size: 2vw;
 }

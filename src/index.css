@@ -2,7 +2,9 @@ body {
   background: linear-gradient(#1D2B64, #F8CDDA);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  margin: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans Condensed", sans-serif;
+  color: #f2f3f4;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

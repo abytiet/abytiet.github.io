@@ -1,5 +1,8 @@
 .img {
     border-radius: 50%;
-    width: 75%;
+    max-width: 55%;
+    max-height:55%;
+    height: auto;
+    width: auto;
     cursor: pointer;
 }

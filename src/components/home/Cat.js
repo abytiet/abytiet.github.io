@@ -19,4 +19,4 @@ class Cat extends Component {
     }
 }
 
-export default Logo;
+export default Cat;
