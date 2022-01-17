@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Logo from './Logo'
-import './About.css'
+import Cat from './Cat'
+import './Aby.css'
 
-class About extends Component {
+class Aby extends Component {
     render() {
         return(
             <div className='about'>
@@ -11,7 +11,7 @@ class About extends Component {
                     <h1> I'm Aby Tiet. </h1>
                 </div>
                 <div>
-                    <Logo />
+                    <Cat />
                 </div>
             </div>
         )

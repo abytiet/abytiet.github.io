@@ -1,13 +1,13 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
-import About from "./components/About/About";
+import Aby from "./components/home/Aby";
 import './App.css';
 
 function App() {
   return (
       <div>
         <Navbar />
-        <About />
+        <Aby />
         </div>
   );
 }
